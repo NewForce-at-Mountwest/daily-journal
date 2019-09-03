@@ -17,3 +17,5 @@ const singleJournalEntry = {
       }
 
   }
+
+  export default singleJournalEntry;

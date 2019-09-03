@@ -4,3 +4,5 @@ const apiManager = {
         .then(response => response.json())
     }
 }
+
+export default apiManager;

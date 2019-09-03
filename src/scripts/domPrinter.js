@@ -1,3 +1,5 @@
+import singleJournalEntry from "./singleJournalEntry.js"
+
 const domPrinter = {
     printJournalEntries: arrayOfAllEntries => {
         let journalEntries = "";
@@ -8,3 +10,5 @@ const domPrinter = {
         document.querySelector(".entry-log").innerHTML = `<div class="row">${journalEntries}</div>`;
       }
 }
+
+export default domPrinter;
