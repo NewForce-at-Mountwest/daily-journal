@@ -1,22 +1,25 @@
 {
-    "journal": [
-       {
-          "conceptsCovered": "Array methods",
-          "dateOfEntry": "07/24/2018",
-          "journalEntry": "We learned about array methods, but only forEach made sense",
-          "moodOfEntry": "Ok"
-       },
-       {
-          "dateOfEntry": "August 12",
-          "conceptsCovered": "Objects and Variables",
-          "journalEntry": "Today we learned about objects, variables, loops, and conditionals. I am just wishing that some of this information would sink in and start making sense.",
-          "moodOfEntry": "Confused"
-       },
-       {
-          "dateOfEntry": "August 16",
-          "conceptsCovered": "Basic DOM Components",
-          "journalEntry": "We followed along as Jordan built a weather forecast function that showed the five-day forecast for two difference cities.",
-          "moodOfEntry": "Nervous"
-       }
-    ]
- }
+  "journal": [
+    {
+      "conceptsCovered": "Array methods",
+      "dateOfEntry": "07/24/2018",
+      "journalEntry": "We learned about array methods, but only forEach made sense",
+      "moodOfEntry": "Ok",
+      "id": 1
+    },
+    {
+      "dateOfEntry": "August 12",
+      "conceptsCovered": "Objects and Variables",
+      "journalEntry": "Today we learned about objects, variables, loops, and conditionals. I am just wishing that some of this information would sink in and start making sense.",
+      "moodOfEntry": "Confused",
+      "id": 2
+    },
+    {
+      "dateOfEntry": "August 16",
+      "conceptsCovered": "Basic DOM Components",
+      "journalEntry": "We followed along as Jordan built a weather forecast function that showed the five-day forecast for two difference cities.",
+      "moodOfEntry": "Nervous",
+      "id": 3
+    }
+  ]
+}
