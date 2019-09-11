@@ -1,10 +1,9 @@
 {
   "journal": [
     {
-      "conceptsCovered": "Array methods",
-      "dateOfEntry": "07/24/2018",
+      "conceptsCovered": "array methods",
+      "dateOfEntry": "",
       "journalEntry": "We learned about array methods, but only forEach made sense",
-      "moodOfEntry": "Ok",
       "id": 1
     },
     {
@@ -15,10 +14,9 @@
       "id": 2
     },
     {
-      "dateOfEntry": "August 16",
-      "conceptsCovered": "Basic DOM Components",
+      "conceptsCovered": "dom!! yay!",
+      "dateOfEntry": "",
       "journalEntry": "We followed along as Jordan built a weather forecast function that showed the five-day forecast for two difference cities.",
-      "moodOfEntry": "Nervous",
       "id": 3
     }
   ]

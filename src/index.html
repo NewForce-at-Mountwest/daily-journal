@@ -9,7 +9,10 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
     />
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
 
     <link rel="stylesheet" href="style.css" />
     <title>Document</title>
@@ -25,29 +28,27 @@
           <input type="text" name="conceptsCovered" id="conceptsCovered" />
 
           <label for="journalEntry">Journal Entry</label>
-          <input type="textarea" name="journalEntry" id="journalEntry" />
+          <input
+            type="text"
+            class="materialize-textarea"
+            name="journalEntry"
+            id="journalEntry"
+          />
 
-          <label for="moodToday">Mood Today</label>
-          <select name="" id="mood-select">
-            <option value="0">Select Mood:</option>
-            <option value="happy">Happy</option>
-            <option value="sad">Sad</option>
-            <option value="tired">Tired</option>
-            <option value="energized">Energized</option>
-            <option value="over it ">over it </option>
-          </select>
         </section>
-
       </div>
-      <button id="record-journal-entry" class="waves-effect waves-light btn" type="button">
-          Record Journal Entry
-        </button>
-
+      <button
+        id="record-journal-entry"
+        class="waves-effect waves-light btn"
+        type="button"
+      >
+        Record Journal Entry
+      </button>
 
       <div class="entry-log"></div>
     </div>
 
-
+   
     <script type="module" src="scripts/journal.js"></script>
   </body>
 </html>

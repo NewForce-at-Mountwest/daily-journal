@@ -2,7 +2,7 @@ const singleJournalEntry = {
   makeJournalEntryComponent: singleObject => {
     // Create your own HTML structure for a journal entry
     return `
-        <div class="col s12 m6">
+        <div class="col s12 m6" id="entry-card-${singleObject.id}">
         <div class="card hoverable">
           <div class="card-content">
             <span class="card-title indigo-text">${singleObject.dateOfEntry}</span>
@@ -14,6 +14,9 @@ const singleJournalEntry = {
             <a  class="btn-floating btn-med waves-effect waves-light red accent-4">
               <i class="material-icons" id="delete-entry-${singleObject.id}">delete</i>
             </a>
+            <a  class="btn-floating btn-med waves-effect waves-light teal accent-4">
+            <i class="material-icons" id="edit-entry-${singleObject.id}">edit</i>
+          </a>
           </div>
         </div>
       </div>`;
